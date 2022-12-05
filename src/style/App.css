@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  padding: 1rem 4.5rem 0rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+main{
+  margin-top: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

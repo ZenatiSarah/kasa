@@ -1,0 +1,22 @@
+.home-images{
+    position: relative;
+    height: 13rem;
+    width: 100%;
+}
+.home-images img, h1{
+    position: absolute;
+    z-index: 2;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.9rem;
+}
+
+.home-images h1{
+    z-index: 100;
+    top: 2.5rem;
+    color: #ffff;
+    font-style: normal;
+font-weight: 500;
+font-size: 48px;
+}

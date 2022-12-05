@@ -1,7 +1,12 @@
 import React from 'react'
+import Imageaccueil from '../../components/Home/Imageaccueil'
+import Liste from '../../components/Home/List_location'
 
 export default function Home() {
     return (
-        <h1>Home</h1>
+        <main>
+            <Imageaccueil />
+            <Liste />
+        </main>
     )
 }

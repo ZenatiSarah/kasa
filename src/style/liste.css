@@ -1,0 +1,14 @@
+.liste_location{
+    border: 1px solid;
+    height: 55rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+}
+
+.location{
+    border: 1px solid red; 
+    height: 40%;
+    width: 33%;
+    border-radius: 1rem;
+}

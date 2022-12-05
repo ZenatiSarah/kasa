@@ -3,6 +3,7 @@ import Home from './pages/Home/Home'
 import Apropos from './pages/Apropos/Apropos';
 import Error from './pages/Error';
 import Navbar from './components/Navbar/Navbar';
+import "./style/App.css"
 
 function App() {
   return (
