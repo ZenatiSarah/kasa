@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 8vh;
+    padding: 1rem 4.5rem 0rem;
     align-items: center;
 }
 
@@ -11,7 +12,7 @@ header{
 }
 
 .header-nav{
-    width: 15rem;
+    width: 12rem;
     display: flex;
 }
 
@@ -22,4 +23,6 @@ header{
     color: #FF6060;
     justify-content: center;
     width: 100%;
+    text-transform: uppercase;
 }
+
