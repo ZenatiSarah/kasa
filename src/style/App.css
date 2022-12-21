@@ -12,7 +12,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-main{
+main, .collapse{
   margin-top: 2rem;
   padding: 1rem 4.5rem 0rem;
 }
