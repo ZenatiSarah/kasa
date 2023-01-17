@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: initial;
+    margin-top: 0 !important;
 }
 
 .collapse_title{
@@ -30,7 +31,7 @@
     margin: 1rem;
 }
 section{
-    width: 65%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,5 +41,6 @@ section{
 .collapse_texte{
     background-color: #F6F6F6;
     padding: 1rem;
+    width: 97%;
     color: #FF6060    ;
 }
