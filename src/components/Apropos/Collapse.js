@@ -3,7 +3,6 @@ import arrow from '../../assets/Vector.png'
 import { useState } from 'react'
 
 
-
 export default function Collapse({ titre, description }) {
     const [isOpen, setIsOpen] = useState(false);
 
