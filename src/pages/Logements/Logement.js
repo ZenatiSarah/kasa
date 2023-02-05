@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import Slideshow from '../../components/Logements/Slideshow'
 import products from '../../data/Annonces';
+import '../../style/slideShow.css'
 
 
 export default function Logement() {
@@ -18,6 +19,6 @@ export default function Logement() {
      * tags
      */
     return (
-        <div><Slideshow slides={pictures} /></div>
+        <div className='slideShow-parent'><Slideshow slides={pictures} /></div>
     )
 }
