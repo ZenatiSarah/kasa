@@ -1,0 +1,148 @@
+@media only screen and (max-width: 600px) {
+    .App{
+        width: 97%;
+        padding: 1vw 1vw 1vw;
+    }
+    
+    header, .apropos, .description_tags{
+        padding: 2vw 4vw 0vw;
+    }
+    .header-img{
+        height: 30px;
+    }
+    main{
+        padding: 1rem 1rem 0rem !important;
+        margin-top: 0rem !important;
+    }
+    .home-images{
+      height: 9rem;  
+    }
+    .home-images img{
+        border-radius: 10px;
+    }
+    .title{
+        height: 54% !important;
+    }
+    .title h1{
+        font-size: 39px !important;
+    }
+    .liste_location{
+        margin-top: 2rem !important;
+        flex-direction: column;
+    }
+    .location{
+        width: 100%;
+        margin: 0rem 0rem  4rem 0rem;
+    }
+    .footer_img{
+        width: 98vw;
+    }
+    .footer p{
+        font-size: 13px;
+    }
+    .apropos_img{
+        height: 14vh;
+    }
+    .apropos_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .collapse{
+        padding: 0rem !important;
+    }
+    section{
+        width: 100%;
+    }
+    .slide{
+        width: 20rem;
+        height: 15rem;
+    }
+    .carrousel{
+        height: 32vh;
+    }
+    .icons_arrow{
+        width: 19rem;
+    }
+    .leftRight img, .arrowRight img{
+        height: 2rem !important;
+    }
+    .produit_description{
+        padding: 0rem;
+        flex-direction: column;
+    }
+    .slideShow-parent{
+        padding: 0rem !important;
+    }
+    .description_tags h1{
+        font-size: 18px ;
+    }
+    .description_tags h2{
+        font-size: 14px;
+    }
+    .description_tags li{
+        width: 4rem;
+    font-size: 10px;
+    }
+    .host_name_picture img {
+        height: 3rem;
+        margin: 1rem 1rem 0rem 0rem;
+    }
+    .description_host{
+       flex-direction: row-reverse; 
+       width: 97%;
+       padding: 2vw 4vw 0vw;
+       height: 5rem;
+    }
+    .rating{
+        width: 8vw;
+    }
+    
+    .rating_etoile{
+        width: 100%;
+        height: 3vh;
+        margin-top: 1rem;
+    }
+    .dropdown{
+        width: 95vw;
+    }
+    .dropdown_description_equipements{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    
+    main{
+        padding: 1rem 1rem 0rem;
+    }
+
+    .location {
+        width: 81% !important;
+    }
+    .home-images img, h1{
+        height: 70%;
+        font-size: 30px !important;
+    }
+    .home-images h1{
+        top: 1rem !important;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0px 0px 0px 13px;
+    }
+  }
+
+
+  @media only screen and (max-width: 800px){
+    .title{
+        height: 45%;
+    }
+    .title h1{
+        top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        font-size: 52px;
+    }
+  }

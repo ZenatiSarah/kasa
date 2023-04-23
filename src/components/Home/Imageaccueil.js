@@ -6,8 +6,10 @@ import "../../style/ImageAccueil.css"
 export default function ImageAccueil() {
     return (
         <div className='home-images'>
+            <div className='title'>
+                <h1>Chez vous, <span>partout et ailleurs</span></h1>
+            </div>
 
-            <h1>Chez vous, <span>partout et ailleurs</span></h1>
             <img src={ImageHome} alt="accueil Kasa" />
             <img src={background} alt="background Kasa" />
         </div>

@@ -5,7 +5,7 @@ import Logement from './pages/Logements/Logement';
 import Error from './pages/Error';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-
+import './style/responsive.css';
 import "./style/App.css"
 
 function App() {

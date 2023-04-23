@@ -1,12 +1,12 @@
-.collapse{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.dropdown{
     text-align: initial;
+    width: 89vw;
     margin-top: 0 !important;
+    display: flex;
+    justify-content: center;
 }
 
-.collapse_title{
+.dropdown_title{
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -17,7 +17,7 @@
     justify-content: space-between;
 } 
 
-.collapse_txt{
+.dropdown_txt{
     margin: 8px 0px 0px 16px;
     font-size: 20px;
     font-style: normal;
@@ -25,22 +25,22 @@
     font-size: 20px;
     line-height: 142.6%;
 }
-.collapse_fleche{
+.dropdown_fleche{
     display: flex;
     align-items: center;
     margin: 1rem;
 }
-section{
-    width: 80%;
+.section_dropdown{
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 1rem;
 }
 
-.collapse_texte{
+.dropdown_texte{
     background-color: #F6F6F6;
     padding: 1rem;
-    width: 97%;
-    color: #FF6060    ;
+    color: #FF6060;
+    list-style-type: none;
+    width: 96%;
 }

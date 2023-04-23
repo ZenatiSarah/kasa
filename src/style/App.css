@@ -2,11 +2,6 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-@media only screen and (max-width: 390px) {
-  .App{
-      padding: 1rem 1.5rem 0rem;
-  }
-}
 
 .App-logo {
   height: 40vmin;
