@@ -12,9 +12,9 @@
     margin-top: 1rem;
 }
 .slide{
-    width: 75rem;
+    width: 92vw;
     object-fit: cover;
-    height: 24rem;
+    height: 57vh;
     position: absolute;
 }
 .slide_picture{
@@ -32,6 +32,6 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    width: 71rem;
+    width: 88vw;
     justify-content: space-between;
 }

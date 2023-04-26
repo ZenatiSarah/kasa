@@ -25,7 +25,7 @@ export default function Logement() {
             <div className='produit_description'>
                 <div className='description_tags'>
                     <h1>{title}</h1>
-                    <h2>{location}</h2>
+                    <h2 className='subtitle'>{location}</h2>
                     <div className='tagmap'>
                         {tags.map((tag, index) => (
                             <li key={`${tag}-${index}`}>{tag}</li>

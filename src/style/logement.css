@@ -5,6 +5,9 @@
     margin-top: 2rem;
 }
 
+.subtitle{
+    color: #FF6060 ;
+}
 .description_host{
     width: 19%;
     display: flex;
@@ -47,11 +50,17 @@
     border-radius: 4rem;
     padding: 0.3rem;
     width: 9rem;
+    margin-right: 6px;
+}
+.rating{
+    display: flex;
+    justify-content: flex-end;
 }
 .rating_etoile{
     width: 2rem;
     display: flex;
     height: 2rem;
+    justify-content: flex-end;
 }
 .etoile_pink, .etoile{
     width: 100%;
