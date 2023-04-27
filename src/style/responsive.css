@@ -69,6 +69,7 @@
     .produit_description{
         padding: 0rem;
         flex-direction: column;
+        margin-top: 0;
     }
     .slideShow-parent{
         padding: 0rem !important;
@@ -94,7 +95,7 @@
        height: 5rem;
     }
     .rating{
-        width: 8vw;
+        width: 42vw;
     }
     
     .rating_etoile{
@@ -110,7 +111,7 @@
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 359px) {
 
     
     main{
