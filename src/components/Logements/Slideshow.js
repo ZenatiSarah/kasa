@@ -5,16 +5,17 @@ import arrowLeft from "../../assets/arrowLeft.png"
 
 
 export default function SlideShow({ slides }) {
-    let length = slides.length;
 
     const [currentSlide, setCurrentSlide] = useState(0);
 
+    let nombreSlides = slides.length;
+
     const nextSlide = () => {
-        setCurrentSlide(currentSlide < length - 1 ? currentSlide + 1 : 0)
+        setCurrentSlide(currentSlide < nombreSlides - 1 ? currentSlide + 1 : 0)
         console.log(currentSlide)
     }
     const previousSlide = () => {
-        setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
+        setCurrentSlide(currentSlide === 0 ? nombreSlides - 1 : currentSlide - 1)
         console.log(currentSlide)
     }
 
