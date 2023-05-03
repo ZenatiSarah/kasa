@@ -103,11 +103,16 @@
         height: 3vh;
         margin-top: 1rem;
     }
-    .dropdown{
-        width: 95vw;
-    }
     .dropdown_description_equipements{
         flex-direction: column;
+    }
+
+    .annonce_title{
+        width: 69%;
+    }
+
+    .annonce_title h2{
+        top: -65px;
     }
 }
 

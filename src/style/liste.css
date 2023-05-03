@@ -30,9 +30,16 @@ h2{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     text-align: start;
+    z-index: 2;
+    top: -60px;
+    left: 16px;
+    position: absolute;
+    color: white;
 }
 .annonce_title{
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 13%;
+    position: absolute;
+    z-index: 1;
 }

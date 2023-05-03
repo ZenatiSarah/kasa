@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import Slideshow from '../../components/Logements/Slideshow'
 import Rating from '../../components/Logements/Rating'
-import Dropdown from '../../components/Logements/Dropdown'
+import Collapse from '../../components/Apropos/Collapse'
 import products from '../../data/Annonces';
 import '../../style/slideShow.css'
 import '../../style/logement.css'
@@ -48,8 +48,8 @@ export default function Logement() {
 
                     </div>
                     <div className='dropdown_description_equipements'>
-                        <Dropdown titre="Description" description={product?.description} />
-                        <Dropdown titre="Équipement" description={equipmentsMap} />
+                        <Collapse titre="Description" description={product?.description} className="description" />
+                        <Collapse titre="Équipement" description={equipmentsMap} className="equipment" />
                     </div>
                 </div>
             ) : <Navigate replace to='404' />}

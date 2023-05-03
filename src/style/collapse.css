@@ -4,6 +4,7 @@
     align-items: center;
     text-align: initial;
     margin-top: 0 !important;
+    width: 100%;
 }
 
 .collapse_title{
@@ -42,5 +43,6 @@ section{
     background-color: #F6F6F6;
     padding: 1rem;
     width: 97%;
-    color: #FF6060    ;
+    color: #FF6060;
+    list-style-type: none;
 }
