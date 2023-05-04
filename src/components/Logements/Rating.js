@@ -5,7 +5,7 @@ import star from "../../assets/etoile.png"
 export default function Rating({ rating }) {
 
     const range = [1, 2, 3, 4, 5];
-
+    //Notre liste de données sera renvoyée en liste d'étoiles
 
     return (
         <div className='rating_etoile'>
