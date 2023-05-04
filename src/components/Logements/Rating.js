@@ -9,7 +9,10 @@ export default function Rating({ rating }) {
 
     return (
         <div className='rating_etoile'>
-            {range.map((el) => rating >= el ? <img key={el} src={starpink} alt="J'aime" className='etoile_pink' /> : <img src={star} key={el} alt="Je n'aime pas" className='etoile' />)}
+            {range.map((el) => rating >= el ?
+                <img key={el} src={starpink} alt="J'aime" className='etoile_pink' /> :
+                <img src={star} key={el} alt="Je n'aime pas" className='etoile' />)}
+
         </div>
     )
 }
