@@ -3,9 +3,11 @@
         width: 97%;
         padding: 1vw 1vw 1vw;
     }
-    
-    header, .apropos, .description_tags{
-        padding: 2vw 4vw 12vw;
+    .description_tags{
+        padding: 2vw 4vw 0vw;
+    }
+    header, .apropos{
+        padding: 2vw 4vw 14vw;
     }
     .header-img{
         height: 30px;
@@ -58,7 +60,7 @@
         height: 15rem;
     }
     .carrousel{
-        height: 32vh;
+        height: 29vh;
     }
     .icons_arrow{
         width: 19rem;
